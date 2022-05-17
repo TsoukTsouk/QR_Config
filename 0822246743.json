@@ -45,7 +45,7 @@
    "applicationSettings":{
       "sdkLink":1,
       "useMastercardNewBrand":true,
-      "supportKeyEntry":false,
+      "supportKeyEntry":true,
       "supportInstallments":true,
       "supportTIP":false,
       "useBenakiTheme":false,
@@ -74,7 +74,7 @@
       "refundValidationEnabled":false,
       "localSaleEnabled":false,
       "isManualAcquirerSelection":true,
-      "preAuthEnabled":false,
+      "preAuthEnabled":true,
       "unattendedMode":false,
       "mdbManagerEnabled":false,
       "fileLoggerEnabled":true,
