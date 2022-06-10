@@ -11,8 +11,8 @@
       "merchantID":"0100984178",
       "terminalID":"77400039",
       "customerID":"00000000000001",
-      "acqIndetifier":"014",
-      "acqName":"Alpha Bank"
+      "acqIndetifier":"011",
+      "acqName":"Εθνική Τράπεζα"
    },
    "multiAcq":{
       "acquirers":[
