@@ -17,6 +17,13 @@
    "multiAcq":{
       "acquirers":[
          {
+            "acqIndetifier": "011",
+            "acqName": "Εθνική Τράπεζα",
+            "allowLocalSale": true,
+            "allowRefund": true,
+            "allowKeyEntry": true
+         },
+         {
             "acqIndetifier":"014",
             "acqName":"Alpha Bank",
             "allowLocal":true,
@@ -62,7 +69,7 @@
       "alphaBankDCCPartnerId":"9011",
       "alphaBankDCCMerchantNumber":"123419011",
       "euroBankDCCSupport":false,
-      "nbgAppSelectionEnabled":true,
+      "nbgAppSelectionEnabled":false,
       "nbgAppSelectionAcquirerBankId":"011",
       "cardlinkOneConfiguration":{
          "accounts":[
