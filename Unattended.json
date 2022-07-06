@@ -82,7 +82,7 @@
       "localSaleEnabled":false,
       "isManualAcquirerSelection":true,
       "preAuthEnabled":true,
-      "unattendedMode":false,
+      "unattendedMode":true,
       "mdbManagerEnabled":false,
       "fileLoggerEnabled":true,
       "fileLoggerMBCapacity":200,
@@ -134,7 +134,7 @@
    "ecrSettings":{
       "ecrSystem":true,
       "ecrSystemDefaultPort":4000,
-      "ecrSystemMode":0,
+      "ecrSystemMode":1,
       "ecrSystemProtocol":0
    },
    "billPayment":{
