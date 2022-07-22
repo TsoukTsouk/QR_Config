@@ -16,27 +16,6 @@
    },
    "multiAcq":{
       "acquirers":[
-         {
-            "acqIndetifier": "011",
-            "acqName": "Εθνική Τράπεζα",
-            "allowLocalSale": true,
-            "allowRefund": true,
-            "allowKeyEntry": true
-         },
-         {
-            "acqIndetifier":"014",
-            "acqName":"Alpha Bank",
-            "allowLocal":true,
-            "allowRefund":true,
-            "allowKeyEntry":true
-         },
-         {
-            "acqIndetifier":"026",
-            "acqName":"Eurobank",
-            "allowLocal":true,
-            "allowRefund":true,
-            "allowKeyEntry":true
-         }
       ]
    },
    "multiMid":{
