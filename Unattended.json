@@ -64,7 +64,7 @@
     "localSaleEnabled" : false,
     "isManualAcquirerSelection" : false,
     "preAuthEnabled" : false,
-    "unattendedMode" : true,
+    "unattendedMode" : false,
     "mdbManagerEnabled" : false,
     "mdbCreditsAvailable" : 0,
     "mdbCreditsLimitAvailable" : 0,
@@ -137,8 +137,8 @@
     "codeME" : ""
   },
   "paxDeviceSettings" : {
-    "disableNavigatorBar" : true,
-    "disableStatusBar" : true,
+    "disableNavigatorBar" : false,
+    "disableStatusBar" : false,
     "allowAutoNetworkFallback" : false,
     "useMicroserviceDateTime" : false,
     "useHostDateTime" : true
