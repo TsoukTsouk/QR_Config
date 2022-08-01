@@ -139,7 +139,7 @@
   "paxDeviceSettings" : {
     "disableNavigatorBar" : false,
     "disableStatusBar" : false,
-    "allowAutoNetworkFallback" : false,
+    "allowAutoNetworkFallback" : true,
     "useMicroserviceDateTime" : false,
     "useHostDateTime" : true
   },
