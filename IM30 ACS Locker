@@ -45,7 +45,7 @@
     "autoReactivationTimer" : "180",
     "useAutoSettlement" : false,
     "useAutoCloseBatch" : true,
-    "useAutoCloseBatchTimer" : "22:53",
+    "useAutoCloseBatchTimer" : "11:00",
     "useAutoParams" : true,
     "useAutoParamsTimer" : "00:53",
     "alphaBankDCCSupport" : false,
