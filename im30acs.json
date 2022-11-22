@@ -16,36 +16,8 @@
   },
   "multiAcq" : {
     "acquirers" : [ {
-      "acqIndetifier" : "014",
-      "acqName" : "Alpha Bank",
-      "allowLocal" : true,
-      "allowRefund" : true,
-      "allowKeyEntry" : false,
-      "allowMoto" : true
-    }, {
       "acqIndetifier" : "026",
       "acqName" : "Eurobank",
-      "allowLocal" : true,
-      "allowRefund" : true,
-      "allowKeyEntry" : true,
-      "allowMoto" : true
-    }, {
-      "acqIndetifier" : "011",
-      "acqName" : "Εθνική Τράπεζα",
-      "allowLocal" : true,
-      "allowRefund" : true,
-      "allowKeyEntry" : false,
-      "allowMoto" : true
-    }, {
-      "acqIndetifier" : "017",
-      "acqName" : "Piraeus Bank",
-      "allowLocal" : true,
-      "allowRefund" : true,
-      "allowKeyEntry" : true,
-      "allowMoto" : true
-    }, {
-      "acqIndetifier" : "016",
-      "acqName" : "Attica Bank",
       "allowLocal" : true,
       "allowRefund" : true,
       "allowKeyEntry" : true,
@@ -59,30 +31,30 @@
     "isAllowSalesPayment" : true,
     "isAllowVoidPayment" : true,
     "isAllowRefundPayment" : true,
-    "isAllowMotoPayment" : true
+    "isAllowMotoPayment" : false
   },
   "applicationSettings" : {
-    "sdkLink" : 2,
+    "sdkLink" : 1,
     "useMastercardNewBrand" : true,
-    "supportKeyEntry" : true,
-    "supportInstallments" : true,
+    "supportKeyEntry" : false,
+    "supportInstallments" : false,
     "supportTIP" : false,
     "useBenakiTheme" : false,
     "useVodafoneTheme" : false,
     "useSklavenitisTheme" : false,
     "autoReactivationTimer" : "180",
     "useAutoSettlement" : false,
-    "useAutoCloseBatch" : false,
-    "useAutoCloseBatchTimer" : "17:55",
+    "useAutoCloseBatch" : true,
+    "useAutoCloseBatchTimer" : "22:48",
     "useAutoParams" : true,
-    "useAutoParamsTimer" : "18:00",
-    "alphaBankDCCSupport" : true,
+    "useAutoParamsTimer" : "00:48",
+    "alphaBankDCCSupport" : false,
     "alphaBankDCCProfileId" : "19011",
     "alphaBankDCCPartnerId" : "9011",
     "alphaBankDCCMerchantNumber" : "123419011",
     "alphaBankDCCMinimumAmount" : 100,
-    "euroBankDCCSupport" : false,
-    "nbgAppSelectionEnabled" : true,
+    "euroBankDCCSupport" : true,
+    "nbgAppSelectionEnabled" : false,
     "nbgAppSelectionAcquirerBankId" : "011",
     "cardlinkOneConfiguration" : {
       "accounts" : [ ]
@@ -90,17 +62,18 @@
     "ishceSelectionEnabled" : false,
     "ishceSelectionAcquirerBankId" : "011",
     "refundValidationEnabled" : false,
-    "localSaleEnabled" : true,
-    "isManualAcquirerSelection" : true,
-    "preAuthEnabled" : true,
-    "unattendedMode" : false,
+    "localSaleEnabled" : false,
+    "isManualAcquirerSelection" : false,
+    "preAuthEnabled" : false,
+    "unattendedMode" : true,
+    "slaveDeviceEnabled" : true,
     "mdbManagerEnabled" : false,
     "mdbCreditsAvailable" : 0,
     "mdbCreditsLimitAvailable" : 0,
     "fileLoggerEnabled" : true,
     "fileLoggerMBCapacity" : 200,
     "freeRefundEnabled" : true,
-    "freeCompletionEnabled" : true,
+    "freeCompletionEnabled" : false,
     "supportPleaseCallMeEnabled" : true,
     "supportConfiguration" : {
       "id" : "2013",
@@ -112,7 +85,7 @@
         "callMe" : "support@cardlink.gr"
       }
     },
-    "supportOrderThermalRollEnabled" : false,
+    "supportOrderThermalRollEnabled" : true,
     "displayPaperRollDiscontinueNotification" : false,
     "receiptSettings" : {
       "showEmvDataInReceipt" : false,
@@ -127,21 +100,21 @@
     "defaultLanguage" : "el"
   },
   "loyaltySettings" : {
-    "alphaBankBonusEnabled" : true,
-    "alphaBankBonusVTid" : "77200054",
-    "alphaBankBonusVMid" : "0101118297",
-    "useAlphaBankBonusBRAmount" : true,
+    "alphaBankBonusEnabled" : false,
+    "alphaBankBonusVTid" : "71300048",
+    "alphaBankBonusVMid" : "0024116634",
+    "useAlphaBankBonusBRAmount" : false,
     "useAlphaBankBonusWithoutOffers" : false,
-    "eurobankEuroepistrofiEnabled" : true,
-    "eurobankEuroepistrofiVTid" : "77200054",
-    "eurobankEuroepistrofiVMid" : "0101118297",
-    "eurobankEuroepistrofiUploadFullRedemption" : true,
-    "nbgGo4MoreEnabled" : true,
-    "nbgGo4MoreVTid" : "30003113",
-    "nbgGo4MoreVMid" : "0123455",
+    "eurobankEuroepistrofiEnabled" : false,
+    "eurobankEuroepistrofiVTid" : "71300048",
+    "eurobankEuroepistrofiVMid" : "0024116634",
+    "eurobankEuroepistrofiUploadFullRedemption" : false,
+    "nbgGo4MoreEnabled" : false,
+    "nbgGo4MoreVTid" : "",
+    "nbgGo4MoreVMid" : "",
     "pbgYellowEnabled" : false,
     "pbgYellowVTid" : "",
-    "pbgYellowVMid" : "140267857",
+    "pbgYellowVMid" : "",
     "pbgYellowPointsToRedeem" : "2000",
     "sklavenitisPrepaidEnabled" : false,
     "asfalistikosgoneasEnabled" : false,
@@ -166,8 +139,8 @@
     "codeME" : ""
   },
   "paxDeviceSettings" : {
-    "disableNavigatorBar" : false,
-    "disableStatusBar" : false,
+    "disableNavigatorBar" : true,
+    "disableStatusBar" : true,
     "allowAutoNetworkFallback" : false,
     "useMicroserviceDateTime" : false,
     "useHostDateTime" : true
@@ -261,6 +234,228 @@
     "bins" : [ {
       "lower" : "62",
       "upper" : "62"
+    } ]
+  }, {
+    "id" : 0,
+    "name" : "EUROLINE",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050246",
+      "upper" : "930050246"
+    }, {
+      "lower" : "930050703",
+      "upper" : "930050703"
+    }, {
+      "lower" : "60197606",
+      "upper" : "60197611"
+    } ]
+  }, {
+    "id" : 1,
+    "name" : "MAGNA",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050216",
+      "upper" : "930050216"
+    }, {
+      "lower" : "930050695",
+      "upper" : "930050695"
+    } ]
+  }, {
+    "id" : 2,
+    "name" : "ZHRIDH",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050688",
+      "upper" : "930050688"
+    } ]
+  }, {
+    "id" : 3,
+    "name" : "ORIFLAME",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050539",
+      "upper" : "930050539"
+    } ]
+  }, {
+    "id" : 4,
+    "name" : "RADIOCARD",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050490",
+      "upper" : "930050490"
+    } ]
+  }, {
+    "id" : 5,
+    "name" : "LONGCHAMP",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050489",
+      "upper" : "930050489"
+    } ]
+  }, {
+    "id" : 6,
+    "name" : "MAKRO",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050470",
+      "upper" : "930050470"
+    } ]
+  }, {
+    "id" : 7,
+    "name" : "ELEPHANT EASY",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050455",
+      "upper" : "930050455"
+    } ]
+  }, {
+    "id" : 8,
+    "name" : "DANOS",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050349",
+      "upper" : "930050349"
+    } ]
+  }, {
+    "id" : 9,
+    "name" : "B24",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050158",
+      "upper" : "930050158"
+    }, {
+      "lower" : "930050166",
+      "upper" : "930050166"
+    } ]
+  }, {
+    "id" : 10,
+    "name" : "ELECTRONET",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "930050133",
+      "upper" : "930050133"
+    } ]
+  }, {
+    "id" : 11,
+    "name" : "AGROKARTA",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "93005064",
+      "upper" : "93005064"
+    } ]
+  }, {
+    "id" : 12,
+    "name" : "STORE",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "5043942",
+      "upper" : "5043942"
+    } ]
+  }, {
+    "id" : 13,
+    "name" : "JET OIL",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "504394100",
+      "upper" : "504394199"
+    } ]
+  }, {
+    "id" : 14,
+    "name" : "MOUHALIS",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "504394080",
+      "upper" : "504394089"
+    } ]
+  }, {
+    "id" : 15,
+    "name" : "GRATSIAS",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "504394070",
+      "upper" : "504394079"
+    } ]
+  }, {
+    "id" : 16,
+    "name" : "AMWAY",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "504394060",
+      "upper" : "504394069"
+    } ]
+  }, {
+    "id" : 17,
+    "name" : "NUTRIMETRICS",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "504394050",
+      "upper" : "504394059"
+    } ]
+  }, {
+    "id" : 18,
+    "name" : "MEALSANDMORE",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "502259000",
+      "upper" : "502259999"
+    } ]
+  }, {
+    "id" : 19,
+    "name" : "EVROPAIKI PISTI",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "51015501",
+      "upper" : "51015501"
+    } ]
+  }, {
+    "id" : 20,
+    "name" : "LONGCHAMP",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "60197600",
+      "upper" : "60197605"
+    } ]
+  }, {
+    "id" : 21,
+    "name" : "AMEX LOCAL",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "375533",
+      "upper" : "375538"
+    }, {
+      "lower" : "375593",
+      "upper" : "375593"
+    } ]
+  }, {
+    "id" : 22,
+    "name" : "AMEX KALOGIROU",
+    "color" : "#FFFFFF",
+    "aids" : [ ],
+    "bins" : [ {
+      "lower" : "3755348",
+      "upper" : "3755349"
     } ]
   } ],
   "config_file" : "https://mpos.cardlink.gr/files/SPm2/CAKEYS.CFG",
@@ -478,6 +673,7 @@
       "image_setwifi_png" : "https://mpos.cardlink.gr/files/easylink/icons/SET_Wifi.png"
     },
     "sp20_files" : {
+      "bootFile" : "https://mpos.cardlink.gr/files/easylink/sp20/EasyLink_Lite_v1.11.00W_SP20V4_20220712_sign.txt",
       "uiParam" : "https://mpos.cardlink.gr/files/easylink/sp20/ui_sp20v4.txt",
       "uiGreekParam" : "https://mpos.cardlink.gr/files/easylink/sp20/ui_sp20v4_greek.txt",
       "clssParam" : "https://mpos.cardlink.gr/files/easylink/sp20/clss_param.txt",
