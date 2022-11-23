@@ -65,7 +65,7 @@
     "localSaleEnabled" : false,
     "isManualAcquirerSelection" : false,
     "preAuthEnabled" : false,
-    "unattendedMode" : true,
+    "unattendedMode" : false,
     "slaveDeviceEnabled" : true,
     "mdbManagerEnabled" : false,
     "mdbCreditsAvailable" : 0,
@@ -123,7 +123,7 @@
   "ecrSettings" : {
     "ecrSystem" : true,
     "ecrSystemDefaultPort" : 4000,
-    "ecrSystemMode" : 1,
+    "ecrSystemMode" : 0,
     "ecrSystemProtocol" : 0
   },
   "billPayment" : {
@@ -139,8 +139,8 @@
     "codeME" : ""
   },
   "paxDeviceSettings" : {
-    "disableNavigatorBar" : true,
-    "disableStatusBar" : true,
+    "disableNavigatorBar" : false,
+    "disableStatusBar" : false,
     "allowAutoNetworkFallback" : false,
     "useMicroserviceDateTime" : false,
     "useHostDateTime" : true
