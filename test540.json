@@ -127,16 +127,16 @@
     "defaultLanguage" : "el"
   },
   "loyaltySettings" : {
-    "alphaBankBonusEnabled" : true,
+    "alphaBankBonusEnabled" : false,
     "alphaBankBonusVTid" : "77200054",
     "alphaBankBonusVMid" : "0101118297",
-    "useAlphaBankBonusBRAmount" : true,
+    "useAlphaBankBonusBRAmount" : false,
     "useAlphaBankBonusWithoutOffers" : false,
-    "eurobankEuroepistrofiEnabled" : true,
+    "eurobankEuroepistrofiEnabled" : false,
     "eurobankEuroepistrofiVTid" : "77200054",
     "eurobankEuroepistrofiVMid" : "0101118297",
-    "eurobankEuroepistrofiUploadFullRedemption" : true,
-    "nbgGo4MoreEnabled" : true,
+    "eurobankEuroepistrofiUploadFullRedemption" : false,
+    "nbgGo4MoreEnabled" : false,
     "nbgGo4MoreVTid" : "30003113",
     "nbgGo4MoreVMid" : "0123455",
     "pbgYellowEnabled" : false,
@@ -150,7 +150,7 @@
   "ecrSettings" : {
     "ecrSystem" : true,
     "ecrSystemDefaultPort" : 4000,
-    "ecrSystemMode" : 1,
+    "ecrSystemMode" : 0,
     "ecrSystemProtocol" : 0
   },
   "billPayment" : {
