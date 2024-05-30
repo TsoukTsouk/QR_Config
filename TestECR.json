@@ -12,7 +12,7 @@
       "terminalID":"77400039",
       "customerID":"00000000000001",
       "acqIndetifier":"011",
-      "acqName":"Εθνική Τράπεζα"
+      "acqName":"Εθνική Τράπεζα",
   "multiAcq": {
 "acquirers": [
 {
@@ -1438,4 +1438,4 @@
 ]
 }
 }
-}
+}}
