@@ -7,6 +7,7 @@
       "merchantName":"Cardlink Demo",
       "merchantAddress":"Leoforos Eirinis 39",
       "merchantTelephone":"2100000000",
+      "merchantVatNumber": "099107340",
       "cardlinkMerchantType":"",
       "merchantID":"0100984178",
       "terminalID":"77400039",
