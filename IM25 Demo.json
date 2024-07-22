@@ -86,7 +86,7 @@
 "useSklavenitisTheme": false,
 "autoReactivationTimer": "180",
 "useAutoCloseBatch": true,
-"useAutoCloseBatchTimer": "15:20",
+"useAutoCloseBatchTimer": "16:00",
 "useAutoParams": true,
 "useAutoParamsTimer": "15:40",
 "alphaBankDCCSupport": false,
