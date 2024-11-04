@@ -108,10 +108,10 @@
       "defaultLanguage":"el"
    },
    "loyaltySettings":{
-      "alphaBankBonusEnabled":false,
+      "alphaBankBonusEnabled":true,
       "alphaBankBonusVTid":"77853136",
       "alphaBankBonusVMid":"0020422002",
-      "useAlphaBankBonusBRAmount":false,
+      "useAlphaBankBonusBRAmount":true,
       "useAlphaBankBonusWithoutOffers":false,
       "eurobankEuroepistrofiEnabled":false,
       "eurobankEuroepistrofiVTid":"77853136",
