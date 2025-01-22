@@ -665,7 +665,7 @@
 "floorLimit": "0",
 "ctlsFloorLimit": "0",
 "transactionLimit": "999999",
-"cvmRequiredLimit": "",
+"cvmRequiredLimit": " ",
 "terminalCapabilities": "E0F8C8",
 "additionalTerminalCapabilities": "0000000000",
 "emvApplicationVersionList": "008C",
