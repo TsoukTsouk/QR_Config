@@ -261,10 +261,12 @@
 "cardlinkLoyaltyEnabled": false
 },
 "ecrSettings": {
-"ecrSystem": false,
+"ecrSystem": true,
 "ecrSystemDefaultPort": 4000,
 "ecrSystemMode": 0,
-"ecrSystemProtocol": 0
+"ecrSystemProtocol": 0,
+"ecrVendor": "2",
+"supportBonusPoolBlock": false
 },
 "billPayment": {
 "useBillPayment": false,
