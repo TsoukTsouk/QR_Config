@@ -22,7 +22,8 @@
 "allowLocal": true,
 "allowRefund": true,
 "allowKeyEntry": false,
-"allowMoto": false
+"allowMoto": false,
+  "allowiris":true
 },
 {
 "acqIndetifier": "026",
